@@ -1,0 +1,99 @@
+Block
+
+Represents a segment of the design. You establish hierarchy by adding an instance of a block to another block. A block can be assigned as the root block to specify which block the design entry tool treats as the origin of the design. See “Organize a Design with Hierarchy”.
+
+A block enables you to break a design into more manageable sections. All designs are comprised of at least one block. You can implement a block either as a schematic (comprised of one or more schematic sheets) or an Interconnectivity Table (ICT). If your design contains multiple blocks, you can set one as root, which the design entry tool treats as the origin of the design.
+
+The Navigator window displays schematic blocks with the schematic block icon () and ICT blocks with the ICT block icon (). Blocks that are not yet implemented as a schematic or an ICT, appear with the generic block icon ().
+
+Board
+
+Contains board-level design data. See “Editing Multiple Board Projects”.
+
+Border
+
+An outline appearing around a sheet that includes corporate or custom information. See “Controlling Sheet Borders”.
+
+Bus
+
+Represents a collection of nets on schematic sheets. See “Connectivity With Buses”. See also Net ripper in this table.
+
+Cell
+
+Represents the footprint or land pattern used to attach a component to a PCB. Your librarian links a cell to a symbol with an part object in the central library. See “Capture a Schematic Design With Symbols”.
+
+Component
+
+Represents an electrical or electromechanical device that is added or assembled onto a printed circuit board (PCB) as part of the product manufacturing process. Components may represent any part that is added, such as nuts and bolts, that are included in a bill of materials but not in a layout netlist. See “Capture a Schematic Design With Symbols”. See also Special component and Part.
+
+Connector
+
+A specific type of part that carries signals from and to boards.
+
+Graphical objects
+
+Drawing elements that include arcs, rectangles, circles, and lines that you can place on a symbol or a schematic sheet. See “Creating and Editing Graphical Objects on a Sheet”.
+
+Group
+
+Specifies a collection of objects. For example, you can assign properties to all symbols in a group at once.
+
+HDL Design
+
+Specifies properties and files related to HDL simulation. See “Digital Block Simulation Process Overview”.
+
+Interconnectivity Table (ICT)
+
+A type of design block that defines pin/net connectivity in a tabular form. You create and edit ICTs with the Xpedition Designer interconnect editor. See “Create a Table-Based Design”.
+
+Library partition
+
+Represent a collection of objects in a library. See “Search for Electronic Component Information”.
+
+Net
+
+Represents connectivity between components. A logical representation of physical traces on a PCB. Nets are represented in a schematic as lines between component pins. See “Connectivity With Nets”. See also Signal in this table.
+
+Net ripper
+
+Represents connectivity between a net and its associated signal in a bus on schematic sheets. See “Connectivity With Buses”. See also Bus in this table.
+
+Part
+
+Links a cell and symbol. A part is synonymous with a component, however, components are understood to include additional parametric data necessary for procurement and PCB manufacturing such as an ordering part number. See “Search for Electronic Component Information”.
+
+Pin
+
+Represents an interface to a component or a block.
+
+Port
+
+A port creates connectivity from a child block to an instance of the block in a parent block. See also Block.
+
+Project
+
+Contains all design data. You can have only one project open in the Xpedition Designer tool at a time.
+
+Property
+
+Represents information about a design object. See “Adding a Property to Design Objects” and “Property Characteristics” in the Xpedition Designer and Xpedition System Designer Reference.
+
+Schematic
+
+A type of design block comprised of one or more sheets that defines pin/net connectivity in a diagram form. See also Sheet and “Capture a Schematic Design With Symbols”.
+
+Sheet
+
+A single page of a schematic that you view and edit graphically. A sheet can contain net, buses, symbols, blocks, properties, and graphical objects. See also “Manipulating Sheets”.
+
+Signal
+
+Represents the information conveyed by connected elements. A signal can traverse multiple nets and components.
+
+Special component
+
+Represents components that serve a special purpose such as power and ground, or off-page connectors, or ports. See “Special Component Symbols”.
+
+Symbol
+
+A graphical representation of a component or a block. A symbol can represent one or more components. For example, one resistor symbol can represent many different resistor components. High pin-count components, like connectors or FPGAs, may be segmented into multiple symbols. See “Symbol Types”. See also Block, Component, and Special components.
