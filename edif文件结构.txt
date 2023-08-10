@@ -1,0 +1,17 @@
+文件结构
+
+EDIF文件整体结构如下：
+(edif name
+(status information)
+(design where-to-find-them)
+(external reference-libraries)
+(library name
+(technology defaults)
+(cell name
+(viewmap map)
+(view type name
+(interface external)
+(contents internal)
+由这个结构可见：EDIF文件包含一系列的库（libraries），每个库包含一系列的单元（cells），每个单元具有1个或多个视图（views）。
+视图使用原理图（Schematic）、版图（layout）、行为（Behaviour）和文档（Document）等格式（View Type）来描述。
+每个视图具有一个接口（interface）和一个内容（contents），通过它们来清晰定义视图。Cell单元还通过（view map）属性和其他View视图相连。
