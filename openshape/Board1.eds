@@ -1,0 +1,309 @@
+  (edif DxD
+    (edifVersion 2 0 0)
+    (edifLevel 0)
+    (keywordMap  (keywordLevel 0))
+    (status
+      (written
+        (timestamp 2023 8 17 17 22 44)
+        (author "Siemens")
+        (program "xDX Designer Edif Exporter"
+          (version "X-ENTP VX.2.13 <22299700>  2023-03-03 19:46:53")
+        )
+      )
+    )
+    (library Electrical
+      (edifLevel 0)
+      (technology
+        (numberDefinition
+          (scale 1 1  (unit CURRENT))
+          (scale 1  (e 1 -8)  (unit DISTANCE))
+          (scale 1 1  (unit RESISTANCE))
+          (scale 1 1  (unit VOLTAGE))
+          (gridMap 1 1)
+        )
+        (figureGroup ARC
+          (color 50 0 50)
+        )
+        (figureGroup ATTRIBUTE
+          (color 9 25 63)
+          (textHeight 254000)
+        )
+        (figureGroup BLOCK
+          (pathWidth 7)
+          (color 54 45 56)
+        )
+        (figureGroup BOX
+          (color 50 0 50)
+        )
+        (figureGroup BUS
+          (pathWidth 10)
+          (color 12 34 86)
+        )
+        (figureGroup CIRCLE
+          (color 50 0 50)
+        )
+        (figureGroup COMPONENT
+          (color 50 0 0)
+        )
+        (figureGroup DOCUMENT_CONTAINER
+          (color 62 72 81)
+        )
+        (figureGroup FRAME
+          (pathWidth 5)
+          (color 100 41 12)
+        )
+        (figureGroup LABEL
+          (textHeight 254000)
+        )
+        (figureGroup LINE
+          (color 50 0 50)
+        )
+        (figureGroup NET
+          (color 12 34 86)
+        )
+        (figureGroup PIN
+          (color 37 37 37)
+        )
+        (figureGroup POLYGON
+          (color 0 100 100)
+        )
+        (figureGroup TABLE
+          (color 0 100 100)
+        )
+        (figureGroup TEXT
+          (textHeight 254000)
+        )
+        (figureGroup WIRE
+          (color 0 62 0)
+        )
+        (figureGroup WIRE_BUS
+          (pathWidth 10)
+          (color 100 100 0)
+        )
+        (figureGroup GRAPHICS
+        )
+      )
+      (cell con_hier_electrical
+        (cellType GENERIC)
+        (view con_hier_electrical
+          (viewType GRAPHIC)
+          (interface)
+          (property  (rename VHDL_Type "VHDL Type")  (string "ELECTRICAL")
+            (owner "Siemens")
+          )
+          (contents
+            (boundingBox  (rectangle  (pt -1524001 -229870)  (pt 0 229938)))
+            (commentGraphics
+              (property VHDL_Type
+                (string  (stringDisplay "ELECTRICAL"
+                    (display
+                      (figureGroupOverride ATTRIBUTE
+                        (textHeight 203200)
+                        (visible  (false))
+                      )
+                      (justify CENTERCENTER)
+                      (orientation R0)
+                      (origin  (pt 0 0)))
+                  )
+                )
+                (owner "Siemens")
+              )
+            )
+            (figure
+             ARC
+              (openShape
+                (curve  (arc  (pt -1270000 152400)  (pt -1447800 0)  (pt -1270000 -152400)))
+              )
+            )
+            (figure
+             ARC
+              (openShape
+                (curve  (arc  (pt -508000 -152400)  (pt -330200 0)  (pt -508000 152400)))
+              )
+            )
+            (figure
+             ARC
+              (openShape
+                (curve  (arc  (pt -508000 -228600)  (pt -254000 0)  (pt -508000 228600)))
+              )
+            )
+            (figure
+             ARC
+              (openShape
+                (curve  (arc  (pt -1270000 228600)  (pt -1524000 0)  (pt -1295400 -228600)))
+              )
+            )
+            (figure
+             LINE
+              (path
+                (pointList
+                  (pt -508000 228600)
+                  (pt -1270000 228600)
+                )
+              )
+            )
+            (figure
+             LINE
+              (path
+                (pointList
+                  (pt -508000 -228600)
+                  (pt -1295400 -228600)
+                )
+              )
+            )
+            (figure
+             LINE
+              (path
+                (pointList
+                  (pt -1270000 152400)
+                  (pt -508000 152400)
+                )
+              )
+            )
+            (figure
+             LINE
+              (path
+                (pointList
+                  (pt -1270000 -152400)
+                  (pt -508000 -152400)
+                )
+              )
+            )
+            (figure
+             PIN
+              (path
+                (pointList
+                  (pt -254000 0)
+                  (pt 0 0)
+                )
+              )
+            )
+          )
+        )
+      )
+    )
+    (library Board1
+      (edifLevel 0)
+      (technology
+        (numberDefinition
+          (scale 1 1  (unit CURRENT))
+          (scale 1  (e 1 -8)  (unit DISTANCE))
+          (scale 1 1  (unit RESISTANCE))
+          (scale 1 1  (unit VOLTAGE))
+          (gridMap 1 1)
+        )
+        (figureGroup ARC
+          (color 50 0 50)
+        )
+        (figureGroup ATTRIBUTE
+          (color 9 25 63)
+          (textHeight 254000)
+        )
+        (figureGroup BLOCK
+          (pathWidth 7)
+          (color 54 45 56)
+        )
+        (figureGroup BOX
+          (color 50 0 50)
+        )
+        (figureGroup BUS
+          (pathWidth 10)
+          (color 12 34 86)
+        )
+        (figureGroup CIRCLE
+          (color 50 0 50)
+        )
+        (figureGroup COMPONENT
+          (color 50 0 0)
+        )
+        (figureGroup DOCUMENT_CONTAINER
+          (color 62 72 81)
+        )
+        (figureGroup FRAME
+          (pathWidth 5)
+          (color 100 41 12)
+        )
+        (figureGroup LABEL
+          (textHeight 254000)
+        )
+        (figureGroup LINE
+          (color 50 0 50)
+        )
+        (figureGroup NET
+          (color 12 34 86)
+        )
+        (figureGroup PIN
+          (color 37 37 37)
+        )
+        (figureGroup POLYGON
+          (color 0 100 100)
+        )
+        (figureGroup TABLE
+          (color 0 100 100)
+        )
+        (figureGroup TEXT
+          (textHeight 254000)
+        )
+        (figureGroup WIRE
+          (color 0 62 0)
+        )
+        (figureGroup WIRE_BUS
+          (pathWidth 10)
+          (color 100 100 0)
+        )
+        (figureGroup GRAPHICS
+        )
+      )
+      (cell Schematic1
+        (cellType GENERIC)
+        (view SCHEMATIC_VIEW
+          (viewType SCHEMATIC)
+          (interface
+            (port  (rename &0441I67 "$1I67")
+            )
+          )
+          (contents
+            (page  (rename &1 "1")
+              (pageSize  (rectangle  (pt 0 0)  (pt 43180000 27940000)))
+              (portImplementation &0441I67
+                (connectLocation
+                  (figure GRAPHICS
+                    (dot  (pt 14986000 17780000))
+                  )
+                )
+                (instance  (rename &0441I67 "$1I67")
+                  (viewRef con_hier_electrical  (cellRef con_hier_electrical  (libraryRef Electrical)))
+                  (transform
+                    (origin  (pt 14986000 17780000))
+                  )
+                  (property NAME
+                    (string  (stringDisplay "B1"
+                        (display
+                          (figureGroupOverride LABEL
+                            (textHeight 304800)
+                            (visible  (false))
+                            (userData visibleName  (false))
+                          )
+                          (justify UPPERCENTER)
+                          (orientation R0)
+                          (origin  (pt 25400 457200)))
+                      )
+                    )
+                    (owner "Siemens")
+                  )
+                  (property  (rename VHDL_Type "VHDL Type")  (string "ELECTRICAL")
+                    (owner "Siemens")
+                  )
+                )
+              )
+            )
+          )
+        )
+      )
+    )
+    (design Board1
+      (cellRef Schematic1
+        (libraryRef Board1)
+      )
+    )
+  )
