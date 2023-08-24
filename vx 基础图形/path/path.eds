@@ -1,0 +1,117 @@
+  (edif DxD
+    (edifVersion 2 0 0)
+    (edifLevel 0)
+    (keywordMap  (keywordLevel 0))
+    (status
+      (written
+        (timestamp 2023 8 24 14 27 52)
+        (author "Siemens")
+        (program "xDX Designer Edif Exporter"
+          (version "X-ENTP VX.2.13 <22299700>  2023-03-03 19:46:53")
+        )
+      )
+    )
+    (library Board1
+      (edifLevel 0)
+      (technology
+        (numberDefinition
+          (scale 1 1  (unit CURRENT))
+          (scale 1  (e 1 -8)  (unit DISTANCE))
+          (scale 1 1  (unit RESISTANCE))
+          (scale 1 1  (unit VOLTAGE))
+          (gridMap 1 1)
+        )
+        (figureGroup ARC
+          (color 50 0 50)
+        )
+        (figureGroup ATTRIBUTE
+          (color 9 25 63)
+          (textHeight 254000)
+        )
+        (figureGroup BLOCK
+          (pathWidth 7)
+          (color 54 45 56)
+        )
+        (figureGroup BOX
+          (color 50 0 50)
+        )
+        (figureGroup BUS
+          (pathWidth 10)
+          (color 12 34 86)
+        )
+        (figureGroup CIRCLE
+          (color 50 0 50)
+        )
+        (figureGroup COMPONENT
+          (color 50 0 0)
+        )
+        (figureGroup DOCUMENT_CONTAINER
+          (color 62 72 81)
+        )
+        (figureGroup FRAME
+          (pathWidth 5)
+          (color 100 41 12)
+        )
+        (figureGroup LABEL
+          (textHeight 254000)
+        )
+        (figureGroup LINE
+          (color 50 0 50)
+        )
+        (figureGroup NET
+          (color 12 34 86)
+        )
+        (figureGroup PIN
+          (color 37 37 37)
+        )
+        (figureGroup POLYGON
+          (color 0 100 100)
+        )
+        (figureGroup TABLE
+          (color 0 100 100)
+        )
+        (figureGroup TEXT
+          (textHeight 254000)
+        )
+        (figureGroup WIRE
+          (color 0 62 0)
+        )
+        (figureGroup WIRE_BUS
+          (pathWidth 10)
+          (color 100 100 0)
+        )
+        (figureGroup GRAPHICS
+        )
+      )
+      (cell Schematic1
+        (cellType GENERIC)
+        (view SCHEMATIC_VIEW
+          (viewType SCHEMATIC)
+          (interface
+          )
+          (contents
+            (page  (rename &1 "1")
+              (pageSize  (rectangle  (pt 0 0)  (pt 43180000 27940000)))
+              (commentGraphics
+                (figure
+                 LINE
+                  (path
+                    (pointList
+                      (pt 22606000 13208000)
+                      (pt 19812000 18542000)
+                      (pt 13716000 21844000)
+                    )
+                  )
+                )
+              )
+            )
+          )
+        )
+      )
+    )
+    (design Board1
+      (cellRef Schematic1
+        (libraryRef Board1)
+      )
+    )
+  )
