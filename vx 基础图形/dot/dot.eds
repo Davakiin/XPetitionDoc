@@ -1,0 +1,384 @@
+  (edif DxD
+    (edifVersion 2 0 0)
+    (edifLevel 0)
+    (keywordMap  (keywordLevel 0))
+    (status
+      (written
+        (timestamp 2023 8 25 17 26 57)
+        (author "Siemens")
+        (program "xDX Designer Edif Exporter"
+          (version "X-ENTP VX.2.13 <22299700>  2023-03-03 19:46:53")
+        )
+      )
+    )
+    (library builtin
+      (edifLevel 0)
+      (technology
+        (numberDefinition
+          (scale 1 1  (unit CURRENT))
+          (scale 1  (e 1 -8)  (unit DISTANCE))
+          (scale 1 1  (unit RESISTANCE))
+          (scale 1 1  (unit VOLTAGE))
+          (gridMap 1 1)
+        )
+        (figureGroup ARC
+          (color 50 0 50)
+        )
+        (figureGroup ATTRIBUTE
+          (color 9 25 63)
+          (textHeight 254000)
+        )
+        (figureGroup BLOCK
+          (pathWidth 7)
+          (color 54 45 56)
+        )
+        (figureGroup BOX
+          (color 50 0 50)
+        )
+        (figureGroup BUS
+          (pathWidth 10)
+          (color 12 34 86)
+        )
+        (figureGroup CIRCLE
+          (color 50 0 50)
+        )
+        (figureGroup COMPONENT
+          (color 50 0 0)
+        )
+        (figureGroup DOCUMENT_CONTAINER
+          (color 62 72 81)
+        )
+        (figureGroup FRAME
+          (pathWidth 5)
+          (color 100 41 12)
+        )
+        (figureGroup LABEL
+          (textHeight 254000)
+        )
+        (figureGroup LINE
+          (color 50 0 50)
+        )
+        (figureGroup NET
+          (color 12 34 86)
+        )
+        (figureGroup PIN
+          (color 37 37 37)
+        )
+        (figureGroup POLYGON
+          (color 0 100 100)
+        )
+        (figureGroup TABLE
+          (color 0 100 100)
+        )
+        (figureGroup TEXT
+          (textHeight 254000)
+        )
+        (figureGroup WIRE
+          (color 0 62 0)
+        )
+        (figureGroup WIRE_BUS
+          (pathWidth 10)
+          (color 100 100 0)
+        )
+        (figureGroup GRAPHICS
+        )
+      )
+      (cell  (rename ATX055PWR055CONN "ATX-PWR-CONN")
+        (cellType GENERIC)
+        (view espl1
+          (viewType SCHEMATIC)
+          (interface
+            (property  (rename Part_Name "Part Name")  (string "Espl1")
+              (owner "Siemens")
+            )
+            (property  (rename Frozen_Package "Frozen Package")  (string "Fix")
+              (owner "Siemens")
+            )
+            (port PL
+              (direction OUTPUT)
+              (designator "PL")
+            )
+            (symbol
+              (boundingBox  (rectangle  (pt -1524000 -127000)  (pt 0 127000)))
+              (figure
+               LINE
+                (path
+                  (pointList
+                    (pt -508000 127000)
+                    (pt -508000 -127000)
+                    (pt -508000 127000)
+                    (pt -1524000 127000)
+                    (pt -1524000 -127000)
+                    (pt -508000 -127000)
+                  )
+                )
+              )
+              (figure
+                (figureGroupOverride LINE
+                )
+                (path
+                  (pointList
+                    (pt -508000 127000)
+                    (pt -508000 -127000)
+                    (pt -508000 127000)
+                    (pt -1524000 127000)
+                    (pt -1524000 -127000)
+                    (pt -508000 -127000)
+                  )
+                )
+              )
+              (keywordDisplay cell
+                (display
+                  (figureGroupOverride ATTRIBUTE
+                    (visible  (false))
+                  )
+                  (justify UPPERCENTER)
+                  (orientation R0)
+                  (origin  (pt -1193800 482600)))
+              )
+              (keywordDisplay designator
+                (display
+                  (figureGroupOverride ATTRIBUTE
+                    (visible  (true))
+                  )
+                  (justify CENTERRIGHT)
+                  (orientation R0)
+                  (origin  (pt -1625600 0)))
+              )
+              (propertyDisplay Part_Name
+                (display
+                  (figureGroupOverride ATTRIBUTE
+                    (textHeight 152400)
+                    (visible  (false))
+                    (userData visibleName  (false))
+                  )
+                  (justify UPPERLEFT)
+                  (orientation R0)
+                  (origin  (pt -5105400 -127000)))
+              )
+              (propertyDisplay Frozen_Package
+                (display
+                  (figureGroupOverride ATTRIBUTE
+                    (visible  (false))
+                    (userData visibleName  (false))
+                  )
+                  (justify UPPERLEFT)
+                  (orientation R0)
+                  (origin  (pt -1524000 -254000)))
+              )
+              (portImplementation
+                (name PL
+                  (display
+                    (figureGroupOverride LABEL
+                      (textHeight 101600)
+                      (visible  (false))
+                    )
+                    (justify CENTERCENTER)
+                    (orientation R0)
+                    (origin  (pt 254000 254000)))
+                )
+                (connectLocation
+                  (figure GRAPHICS
+                    (dot  (pt 0 0))))
+                (figure
+                 PIN
+                  (path
+                    (pointList
+                      (pt -508000 0)
+                      (pt 0 0)
+                    )
+                  )
+                )
+                (keywordDisplay designator
+                  (display
+                    (figureGroupOverride ATTRIBUTE
+                      (visible  (true))
+                    )
+                    (justify LOWERCENTER)
+                    (orientation R0)
+                    (origin  (pt -254000 0)))
+                )
+              )
+            )
+          )
+        )
+      )
+    )
+    (library Board1
+      (edifLevel 0)
+      (technology
+        (numberDefinition
+          (scale 1 1  (unit CURRENT))
+          (scale 1  (e 1 -8)  (unit DISTANCE))
+          (scale 1 1  (unit RESISTANCE))
+          (scale 1 1  (unit VOLTAGE))
+          (gridMap 1 1)
+        )
+        (figureGroup ARC
+          (color 50 0 50)
+        )
+        (figureGroup ATTRIBUTE
+          (color 9 25 63)
+          (textHeight 254000)
+        )
+        (figureGroup BLOCK
+          (pathWidth 7)
+          (color 54 45 56)
+        )
+        (figureGroup BOX
+          (color 50 0 50)
+        )
+        (figureGroup BUS
+          (pathWidth 10)
+          (color 12 34 86)
+        )
+        (figureGroup CIRCLE
+          (color 50 0 50)
+        )
+        (figureGroup COMPONENT
+          (color 50 0 0)
+        )
+        (figureGroup DOCUMENT_CONTAINER
+          (color 62 72 81)
+        )
+        (figureGroup FRAME
+          (pathWidth 5)
+          (color 100 41 12)
+        )
+        (figureGroup LABEL
+          (textHeight 254000)
+        )
+        (figureGroup LINE
+          (color 50 0 50)
+        )
+        (figureGroup NET
+          (color 12 34 86)
+        )
+        (figureGroup PIN
+          (color 37 37 37)
+        )
+        (figureGroup POLYGON
+          (color 0 100 100)
+        )
+        (figureGroup TABLE
+          (color 0 100 100)
+        )
+        (figureGroup TEXT
+          (textHeight 254000)
+        )
+        (figureGroup WIRE
+          (color 0 62 0)
+        )
+        (figureGroup WIRE_BUS
+          (pathWidth 10)
+          (color 100 100 0)
+        )
+        (figureGroup GRAPHICS
+        )
+      )
+      (cell Schematic1
+        (cellType GENERIC)
+        (view SCHEMATIC_VIEW
+          (viewType SCHEMATIC)
+          (interface
+          )
+          (contents
+            (page  (rename &1 "1")
+              (pageSize  (rectangle  (pt 0 0)  (pt 43180000 27940000)))
+              (instance  (rename &0441I42 "$1I42")
+                (viewRef espl1
+                  (cellRef  (name ATX055PWR055CONN
+                      (display
+                        (figureGroupOverride ATTRIBUTE
+                          (visible  (false))
+                        )
+                        (justify UPPERCENTER)
+                        (orientation R0)
+                        (origin  (pt 18618200 15468600)))
+                    )  (libraryRef builtin)))
+                (transform
+                  (origin  (pt 19812000 14986000))
+                )
+                (portInstance PL  (designator  (stringDisplay ""
+                      (display
+                        (figureGroupOverride ATTRIBUTE
+                          (visible  (true))
+                        )
+                        (justify LOWERCENTER)
+                        (orientation R0)
+                        (origin  (pt 19558000 14986000)))
+                    )
+                  ))
+                (designator  (stringDisplay ""
+                    (display
+                      (figureGroupOverride ATTRIBUTE
+                        (visible  (true))
+                      )
+                      (justify CENTERRIGHT)
+                      (orientation R0)
+                      (origin  (pt 18186400 14986000)))
+                  )
+                )
+                (property  (rename Part_Label "Part Label")
+                  (string  (stringDisplay "MGC531133-8"
+                      (display
+                        (figureGroupOverride ATTRIBUTE
+                          (visible  (false))
+                          (userData visibleName  (false))
+                        )
+                        (justify LOWERLEFT)
+                        (orientation R0)
+                        (origin  (pt 18288000 14605000)))
+                    )
+                  )
+                  (owner "Siemens")
+                )
+                (property  (rename Part_Name "Part Name")
+                  (string  (stringDisplay "EDGE"
+                      (display
+                        (figureGroupOverride ATTRIBUTE
+                          (textHeight 152400)
+                          (visible  (false))
+                          (userData visibleName  (false))
+                        )
+                        (justify UPPERLEFT)
+                        (orientation R0)
+                        (origin  (pt 14706600 14859000)))
+                    )
+                  )
+                  (owner "Siemens")
+                )
+              )
+              (net
+                (name PL  (display
+                    (figureGroupOverride LABEL
+                      (visible  (true))
+                    )
+                    (justify LOWERLEFT)
+                    (orientation R0)
+                    (origin  (pt 20828000 14986000)))
+                )
+                (joined
+                  (portRef PL  (instanceRef &0441I42))
+                )
+                (figure
+                 NET
+                  (path
+                    (pointList
+                      (pt 20828000 14986000)
+                      (pt 19812000 14986000)
+                    )
+                  )
+                )
+              )
+            )
+          )
+        )
+      )
+    )
+    (design Board1
+      (cellRef Schematic1
+        (libraryRef Board1)
+      )
+    )
+  )
