@@ -1,0 +1,603 @@
+  (edif DxD
+    (edifVersion 2 0 0)
+    (edifLevel 0)
+    (keywordMap  (keywordLevel 0))
+    (status
+      (written
+        (timestamp 2023 12 11 14 41 11)
+        (author "Siemens")
+        (program "xDX Designer Edif Exporter"
+          (version "X-ENTP VX.2.13 <22299700>  2023-03-03 19:46:53")
+        )
+      )
+    )
+    (library  (rename run055time_generated "run-time generated")
+      (edifLevel 0)
+      (technology
+        (numberDefinition
+          (scale 1 1  (unit CURRENT))
+          (scale 1  (e 1 -8)  (unit DISTANCE))
+          (scale 1 1  (unit RESISTANCE))
+          (scale 1 1  (unit VOLTAGE))
+          (gridMap 1 1)
+        )
+        (figureGroup ARC
+          (color 50 0 50)
+        )
+        (figureGroup ATTRIBUTE
+          (color 9 25 63)
+          (textHeight 254000)
+        )
+        (figureGroup BLOCK
+          (pathWidth 7)
+          (color 54 45 56)
+        )
+        (figureGroup BOX
+          (color 50 0 50)
+        )
+        (figureGroup BUS
+          (pathWidth 10)
+          (color 12 34 86)
+        )
+        (figureGroup CIRCLE
+          (color 50 0 50)
+        )
+        (figureGroup COMPONENT
+          (color 50 0 0)
+        )
+        (figureGroup DOCUMENT_CONTAINER
+          (color 62 72 81)
+        )
+        (figureGroup FRAME
+          (pathWidth 5)
+          (color 100 41 12)
+        )
+        (figureGroup LABEL
+          (textHeight 254000)
+        )
+        (figureGroup LINE
+          (color 50 0 50)
+        )
+        (figureGroup NET
+          (color 12 34 86)
+        )
+        (figureGroup PIN
+          (color 37 37 37)
+        )
+        (figureGroup POLYGON
+          (color 0 100 100)
+        )
+        (figureGroup TABLE
+          (color 0 100 100)
+        )
+        (figureGroup TEXT
+          (textHeight 254000)
+        )
+        (figureGroup WIRE
+          (color 0 62 0)
+        )
+        (figureGroup WIRE_BUS
+          (pathWidth 10)
+          (color 100 100 0)
+        )
+        (figureGroup GRAPHICS
+        )
+      )
+      (cell  (rename &044044Ripper_con_inter_bi "$$Ripper_con_inter_bi")
+        (cellType RIPPER)
+        (view RIPPER_VIEW
+          (viewType SCHEMATIC)
+          (interface
+            (port  (array S_1 512)
+            )
+            (port  (array B_2 512)
+            )
+            (joined
+              (portRef S_1)
+              (portRef B_2))
+            (symbol
+              (boundingBox  (rectangle  (pt 0 0)  (pt 1524000 508000)))
+              (figure
+               LINE
+                (path
+                  (pointList
+                    (pt 1016000 508000)
+                    (pt 1117600 406400)
+                    (pt 1016000 508000)
+                    (pt 254000 508000)
+                    (pt 0 254000)
+                    (pt 254000 0)
+                    (pt 1016000 0)
+                    (pt 1270000 254000)
+                    (pt 1117600 406400)
+                  )
+                )
+              )
+              (figure
+               LINE
+                (path
+                  (pointList
+                    (pt 1524000 254000)
+                    (pt 1270000 254000)
+                  )
+                )
+              )
+              (portImplementation
+                (name S_1)
+                (connectLocation
+                  (figure GRAPHICS
+                    (dot  (pt 1524000 254000))))
+              )
+              (portImplementation
+                (name B_2)
+                (connectLocation
+                  (figure GRAPHICS
+                    (dot  (pt 0 254000))))
+              )
+            )
+          )
+        )
+      )
+      (cell  (rename &044044Ripper_ripper "$$Ripper_ripper")
+        (cellType RIPPER)
+        (view RIPPER_VIEW
+          (viewType SCHEMATIC)
+          (interface
+            (port  (array S_1 512)
+            )
+            (port  (array B_2 512)
+            )
+            (joined
+              (portRef S_1)
+              (portRef B_2))
+            (symbol
+              (boundingBox  (rectangle  (pt 0 0)  (pt 254000 254000)))
+              (figure
+                (figureGroupOverride LINE
+                )
+                (path
+                  (pointList
+                    (pt 0 254000)
+                    (pt 254000 0)
+                  )
+                )
+              )
+              (portImplementation
+                (name S_1)
+                (connectLocation
+                  (figure GRAPHICS
+                    (dot  (pt 254000 0))))
+              )
+              (portImplementation
+                (name B_2)
+                (connectLocation
+                  (figure GRAPHICS
+                    (dot  (pt 0 0))))
+              )
+            )
+          )
+        )
+      )
+    )
+    (library builtin
+      (edifLevel 0)
+      (technology
+        (numberDefinition
+          (scale 1 1  (unit CURRENT))
+          (scale 1  (e 1 -8)  (unit DISTANCE))
+          (scale 1 1  (unit RESISTANCE))
+          (scale 1 1  (unit VOLTAGE))
+          (gridMap 1 1)
+        )
+        (figureGroup ARC
+          (color 50 0 50)
+        )
+        (figureGroup ATTRIBUTE
+          (color 9 25 63)
+          (textHeight 254000)
+        )
+        (figureGroup BLOCK
+          (pathWidth 7)
+          (color 54 45 56)
+        )
+        (figureGroup BOX
+          (color 50 0 50)
+        )
+        (figureGroup BUS
+          (pathWidth 10)
+          (color 12 34 86)
+        )
+        (figureGroup CIRCLE
+          (color 50 0 50)
+        )
+        (figureGroup COMPONENT
+          (color 50 0 0)
+        )
+        (figureGroup DOCUMENT_CONTAINER
+          (color 62 72 81)
+        )
+        (figureGroup FRAME
+          (pathWidth 5)
+          (color 100 41 12)
+        )
+        (figureGroup LABEL
+          (textHeight 254000)
+        )
+        (figureGroup LINE
+          (color 50 0 50)
+        )
+        (figureGroup NET
+          (color 12 34 86)
+        )
+        (figureGroup PIN
+          (color 37 37 37)
+        )
+        (figureGroup POLYGON
+          (color 0 100 100)
+        )
+        (figureGroup TABLE
+          (color 0 100 100)
+        )
+        (figureGroup TEXT
+          (textHeight 254000)
+        )
+        (figureGroup WIRE
+          (color 0 62 0)
+        )
+        (figureGroup WIRE_BUS
+          (pathWidth 10)
+          (color 100 100 0)
+        )
+        (figureGroup GRAPHICS
+        )
+      )
+      (cell con_inter_bi
+        (cellType GENERIC)
+        (view con_inter_bi
+          (viewType GRAPHIC)
+          (interface)
+          (property  (rename Xref_Annotation "Xref Annotation")  (string "")
+            (owner "Siemens")
+          )
+          (contents
+            (boundingBox  (rectangle  (pt -1524000 -254000)  (pt 0 254000)))
+            (commentGraphics
+              (property Xref_Annotation
+                (string  (stringDisplay ""
+                    (display
+                      (figureGroupOverride ATTRIBUTE
+                        (visible  (true))
+                      )
+                      (justify CENTERRIGHT)
+                      (orientation R0)
+                      (origin  (pt -1574800 0)))
+                  )
+                )
+                (owner "Siemens")
+              )
+            )
+            (figure
+             LINE
+              (path
+                (pointList
+                  (pt -508000 254000)
+                  (pt -406400 152400)
+                  (pt -508000 254000)
+                  (pt -1270000 254000)
+                  (pt -1524000 0)
+                  (pt -1270000 -254000)
+                  (pt -508000 -254000)
+                  (pt -254000 0)
+                  (pt -406400 152400)
+                )
+              )
+            )
+            (figure
+             LINE
+              (path
+                (pointList
+                  (pt 0 0)
+                  (pt -254000 0)
+                )
+              )
+            )
+            (figure
+             PIN
+              (path
+                (pointList
+                  (pt 0 0)
+                  (pt 0 0)
+                )
+              )
+            )
+          )
+        )
+      )
+    )
+    (library Board1
+      (edifLevel 0)
+      (technology
+        (numberDefinition
+          (scale 1 1  (unit CURRENT))
+          (scale 1  (e 1 -8)  (unit DISTANCE))
+          (scale 1 1  (unit RESISTANCE))
+          (scale 1 1  (unit VOLTAGE))
+          (gridMap 1 1)
+        )
+        (figureGroup ARC
+          (color 50 0 50)
+        )
+        (figureGroup ATTRIBUTE
+          (color 9 25 63)
+          (textHeight 254000)
+        )
+        (figureGroup BLOCK
+          (pathWidth 7)
+          (color 54 45 56)
+        )
+        (figureGroup BOX
+          (color 50 0 50)
+        )
+        (figureGroup BUS
+          (pathWidth 10)
+          (color 12 34 86)
+        )
+        (figureGroup CIRCLE
+          (color 50 0 50)
+        )
+        (figureGroup COMPONENT
+          (color 50 0 0)
+        )
+        (figureGroup DOCUMENT_CONTAINER
+          (color 62 72 81)
+        )
+        (figureGroup FRAME
+          (pathWidth 5)
+          (color 100 41 12)
+        )
+        (figureGroup LABEL
+          (textHeight 254000)
+        )
+        (figureGroup LINE
+          (color 50 0 50)
+        )
+        (figureGroup NET
+          (color 12 34 86)
+        )
+        (figureGroup PIN
+          (color 37 37 37)
+        )
+        (figureGroup POLYGON
+          (color 0 100 100)
+        )
+        (figureGroup TABLE
+          (color 0 100 100)
+        )
+        (figureGroup TEXT
+          (textHeight 254000)
+        )
+        (figureGroup WIRE
+          (color 0 62 0)
+        )
+        (figureGroup WIRE_BUS
+          (pathWidth 10)
+          (color 100 100 0)
+        )
+        (figureGroup GRAPHICS
+        )
+      )
+      (cell Schematic1
+        (cellType GENERIC)
+        (view SCHEMATIC_VIEW
+          (viewType SCHEMATIC)
+          (interface
+          )
+          (contents
+            (offPageConnector  (rename &0441I18 "$1I18"))
+            (offPageConnector  (rename &0441I19 "$1I19"))
+            (offPageConnector  (rename &0441I20 "$1I20"))
+            (offPageConnector  (rename &0441I21 "$1I21"))
+            (offPageConnector  (rename &0441I22 "$1I22"))
+            (offPageConnector  (rename &0441I24 "$1I24"))
+            (page  (rename &1 "1")
+              (pageSize  (rectangle  (pt 0 0)  (pt 43180000 27940000)))
+              (portImplementation &0441I18
+                (connectLocation
+                  (figure GRAPHICS
+                    (dot  (pt 22352000 14732000))
+                  )
+                )
+                (instance  (rename &0441I18 "$1I18")
+                  (viewRef con_inter_bi  (cellRef con_inter_bi  (libraryRef builtin)))
+                  (transform
+                    (origin  (pt 22352000 14732000))
+                  )
+                  (property NAME
+                    (string  (stringDisplay "B1"
+                        (display
+                          (figureGroupOverride LABEL
+                            (textHeight 203200)
+                            (visible  (false))
+                            (userData visibleName  (false))
+                          )
+                          (justify UPPERCENTER)
+                          (orientation R0)
+                          (origin  (pt 152400 355600)))
+                      )
+                    )
+                    (owner "Siemens")
+                  )
+                  (property  (rename Xref_Annotation "Xref Annotation")  (string "")
+                    (owner "Siemens")
+                  )
+                )
+              )
+              (portImplementation &0441I19
+                (connectLocation
+                  (figure GRAPHICS
+                    (dot  (pt 22352000 14732000))
+                  )
+                )
+                (instance  (rename &0441I19 "$1I19")
+                  (viewRef con_inter_bi  (cellRef con_inter_bi  (libraryRef builtin)))
+                  (transform
+                    (origin  (pt 22352000 14732000))
+                  )
+                  (property NAME
+                    (string  (stringDisplay "B1"
+                        (display
+                          (figureGroupOverride LABEL
+                            (textHeight 203200)
+                            (visible  (false))
+                            (userData visibleName  (false))
+                          )
+                          (justify UPPERCENTER)
+                          (orientation R0)
+                          (origin  (pt 152400 355600)))
+                      )
+                    )
+                    (owner "Siemens")
+                  )
+                  (property  (rename Xref_Annotation "Xref Annotation")  (string "")
+                    (owner "Siemens")
+                  )
+                )
+              )
+              (portImplementation &0441I20
+                (connectLocation
+                  (figure GRAPHICS
+                    (dot  (pt 22352000 14732000))
+                  )
+                )
+                (instance  (rename &0441I20 "$1I20")
+                  (viewRef con_inter_bi  (cellRef con_inter_bi  (libraryRef builtin)))
+                  (transform
+                    (origin  (pt 22352000 14732000))
+                  )
+                  (property NAME
+                    (string  (stringDisplay "B1"
+                        (display
+                          (figureGroupOverride LABEL
+                            (textHeight 203200)
+                            (visible  (false))
+                            (userData visibleName  (false))
+                          )
+                          (justify UPPERCENTER)
+                          (orientation R0)
+                          (origin  (pt 152400 355600)))
+                      )
+                    )
+                    (owner "Siemens")
+                  )
+                  (property  (rename Xref_Annotation "Xref Annotation")  (string "")
+                    (owner "Siemens")
+                  )
+                )
+              )
+              (portImplementation &0441I21
+                (connectLocation
+                  (figure GRAPHICS
+                    (dot  (pt 20828000 14732000))
+                  )
+                )
+                (instance  (rename &0441I21 "$1I21")
+                  (viewRef con_inter_bi  (cellRef con_inter_bi  (libraryRef builtin)))
+                  (transform
+                    (orientation R180)
+                    (origin  (pt 20828000 14732000))
+                  )
+                  (property NAME
+                    (string  (stringDisplay "B1"
+                        (display
+                          (figureGroupOverride LABEL
+                            (textHeight 203200)
+                            (visible  (false))
+                            (userData visibleName  (false))
+                          )
+                          (justify UPPERCENTER)
+                          (orientation R0)
+                          (origin  (pt 152400 355600)))
+                      )
+                    )
+                    (owner "Siemens")
+                  )
+                  (property  (rename Xref_Annotation "Xref Annotation")  (string "")
+                    (owner "Siemens")
+                  )
+                )
+              )
+              (portImplementation &0441I22
+                (connectLocation
+                  (figure GRAPHICS
+                    (dot  (pt 21590000 13970000))
+                  )
+                )
+                (instance  (rename &0441I22 "$1I22")
+                  (viewRef con_inter_bi  (cellRef con_inter_bi  (libraryRef builtin)))
+                  (transform
+                    (orientation R270)
+                    (origin  (pt 21590000 13970000))
+                  )
+                  (property NAME
+                    (string  (stringDisplay "B1"
+                        (display
+                          (figureGroupOverride LABEL
+                            (textHeight 203200)
+                            (visible  (false))
+                            (userData visibleName  (false))
+                          )
+                          (justify UPPERCENTER)
+                          (orientation R0)
+                          (origin  (pt 152400 355600)))
+                      )
+                    )
+                    (owner "Siemens")
+                  )
+                  (property  (rename Xref_Annotation "Xref Annotation")  (string "")
+                    (owner "Siemens")
+                  )
+                )
+              )
+              (portImplementation &0441I24
+                (connectLocation
+                  (figure GRAPHICS
+                    (dot  (pt 21590000 15494000))
+                  )
+                )
+                (instance  (rename &0441I24 "$1I24")
+                  (viewRef con_inter_bi  (cellRef con_inter_bi  (libraryRef builtin)))
+                  (transform
+                    (orientation R90)
+                    (origin  (pt 21590000 15494000))
+                  )
+                  (property NAME
+                    (string  (stringDisplay "B1"
+                        (display
+                          (figureGroupOverride LABEL
+                            (textHeight 203200)
+                            (visible  (false))
+                            (userData visibleName  (false))
+                          )
+                          (justify UPPERCENTER)
+                          (orientation R0)
+                          (origin  (pt 152400 355600)))
+                      )
+                    )
+                    (owner "Siemens")
+                  )
+                  (property  (rename Xref_Annotation "Xref Annotation")  (string "")
+                    (owner "Siemens")
+                  )
+                )
+              )
+            )
+          )
+        )
+      )
+    )
+    (design Board1
+      (cellRef Schematic1
+        (libraryRef Board1)
+      )
+    )
+  )
