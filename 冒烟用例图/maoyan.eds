@@ -4,7 +4,7 @@
     (keywordMap  (keywordLevel 0))
     (status
       (written
-        (timestamp 2023 12 13 10 55 41)
+        (timestamp 2023 12 13 11 39 20)
         (author "Siemens")
         (program "xDX Designer Edif Exporter"
           (version "X-ENTP VX.2.13 <22299700>  2023-03-03 19:46:53")
@@ -3690,10 +3690,10 @@
                         (origin  (pt 27432000 14478000)))
                     )
                   ))
-                (designator  (stringDisplay ""
+                (designator  (stringDisplay "1I16"
                     (display
                       (figureGroupOverride ATTRIBUTE
-                        (visible  (true))
+                        (visible  (false))
                       )
                       (justify CENTERRIGHT)
                       (orientation R0)
@@ -3805,10 +3805,10 @@
                         (origin  (pt 32258000 14503400)))
                     )
                   ))
-                (designator  (stringDisplay ""
+                (designator  (stringDisplay "1I5"
                     (display
                       (figureGroupOverride ATTRIBUTE
-                        (visible  (true))
+                        (visible  (false))
                       )
                       (justify UPPERCENTER)
                       (orientation R0)
@@ -3841,10 +3841,10 @@
                         (origin  (pt 29972000 14503400)))
                     )
                   ))
-                (designator  (stringDisplay ""
+                (designator  (stringDisplay "1I10"
                     (display
                       (figureGroupOverride ATTRIBUTE
-                        (visible  (true))
+                        (visible  (false))
                       )
                       (justify UPPERCENTER)
                       (orientation R0)
@@ -4042,10 +4042,10 @@
                         (origin  (pt 30226000 16281400)))
                     )
                   ))
-                (designator  (stringDisplay ""
+                (designator  (stringDisplay "1I43"
                     (display
                       (figureGroupOverride ATTRIBUTE
-                        (visible  (true))
+                        (visible  (false))
                       )
                       (justify UPPERCENTER)
                       (orientation R0)
@@ -4116,7 +4116,18 @@
                     )
                     (owner "Siemens")
                   )
-                  (property  (rename Xref_Annotation "Xref Annotation")  (string "")
+                  (property  (rename Xref_Annotation "Xref Annotation")
+                    (string  (stringDisplay "1I1"
+                        (display
+                          (figureGroupOverride ATTRIBUTE
+                            (visible  (false))
+                            (userData visibleName  (false))
+                          )
+                          (justify CENTERCENTER)
+                          (orientation R0)
+                          (origin  (pt 39573200 19304000)))
+                      )
+                    )
                     (owner "Siemens")
                   )
                 )
@@ -4127,6 +4138,16 @@
                   (origin  (pt 17526000 2540000))
                 )
                 (portInstance &_1N41)
+                (designator  (stringDisplay "CBB2Test"
+                    (display
+                      (figureGroupOverride ATTRIBUTE
+                        (visible  (false))
+                      )
+                      (justify LOWERLEFT)
+                      (orientation R0)
+                      (origin  (pt 17526000 2286000)))
+                  )
+                )
                 (property NAME
                   (string  (stringDisplay "CBB2Test"
                       (display
@@ -4472,10 +4493,10 @@
                         (origin  (pt 26924000 13004800)))
                     )
                   ))
-                (designator  (stringDisplay ""
+                (designator  (stringDisplay "1I567"
                     (display
                       (figureGroupOverride ATTRIBUTE
-                        (visible  (true))
+                        (visible  (false))
                       )
                       (justify UPPERCENTER)
                       (orientation R0)
@@ -4557,10 +4578,10 @@
                         (origin  (pt 26924000 10972800)))
                     )
                   ))
-                (designator  (stringDisplay ""
+                (designator  (stringDisplay "1I576"
                     (display
                       (figureGroupOverride ATTRIBUTE
-                        (visible  (true))
+                        (visible  (false))
                       )
                       (justify UPPERCENTER)
                       (orientation R0)
@@ -4666,10 +4687,10 @@
                         (origin  (pt 11557000 12573000)))
                     )
                   ))
-                (designator  (stringDisplay ""
+                (designator  (stringDisplay "1I606"
                     (display
                       (figureGroupOverride ATTRIBUTE
-                        (visible  (true))
+                        (visible  (false))
                       )
                       (justify LOWERLEFT)
                       (orientation R0)
@@ -4740,15 +4761,29 @@
                         (origin  (pt 11557000 12700000)))
                     )
                   ))
-                (designator  (stringDisplay ""
+                (designator  (stringDisplay "1I614"
                     (display
                       (figureGroupOverride ATTRIBUTE
-                        (visible  (true))
+                        (visible  (false))
                       )
                       (justify LOWERLEFT)
                       (orientation R0)
                       (origin  (pt 11684000 13462000)))
                   )
+                )
+                (property Value
+                  (string  (stringDisplay "11"
+                      (display
+                        (figureGroupOverride ATTRIBUTE
+                          (visible  (false))
+                          (userData visibleName  (false))
+                        )
+                        (justify LOWERLEFT)
+                        (orientation R0)
+                        (origin  (pt 11684000 13843000)))
+                    )
+                  )
+                  (owner "Siemens")
                 )
                 (property  (rename Part_Label "Part Label")
                   (string  (stringDisplay "R2512"
@@ -4855,10 +4890,10 @@
                         (origin  (pt 11074400 9448800)))
                     )
                   ))
-                (designator  (stringDisplay ""
+                (designator  (stringDisplay "1I622"
                     (display
                       (figureGroupOverride ATTRIBUTE
-                        (visible  (true))
+                        (visible  (false))
                       )
                       (justify UPPERCENTER)
                       (orientation R0)
@@ -4977,6 +5012,16 @@
                   (origin  (pt 14478000 9144000))
                 )
                 (portInstance testBus)
+                (designator  (stringDisplay "testCbb"
+                    (display
+                      (figureGroupOverride ATTRIBUTE
+                        (visible  (false))
+                      )
+                      (justify LOWERLEFT)
+                      (orientation R0)
+                      (origin  (pt 14478000 8890000)))
+                  )
+                )
                 (property NAME
                   (string  (stringDisplay "testCbb"
                       (display
@@ -5035,6 +5080,20 @@
                       (origin  (pt 14224000 3556000)))
                   )
                 )
+                (property Value
+                  (string  (stringDisplay "1I431"
+                      (display
+                        (figureGroupOverride ATTRIBUTE
+                          (visible  (false))
+                          (userData visibleName  (true))
+                        )
+                        (justify LOWERLEFT)
+                        (orientation R0)
+                        (origin  (pt 14224000 3810000)))
+                    )
+                  )
+                  (owner "Siemens")
+                )
               )
               (instance  (rename &0441I435 "$1I435")
                 (viewRef &1N4148  (cellRef &1N4148  (libraryRef Discrete)))
@@ -5063,11 +5122,11 @@
                         (origin  (pt 11557000 19304000)))
                     )
                   ))
-                (designator  (stringDisplay ""
+                (designator  (stringDisplay "1I435"
                     (display
                       (figureGroupOverride ATTRIBUTE
                         (textHeight 203200)
-                        (visible  (true))
+                        (visible  (false))
                       )
                       (justify UPPERCENTER)
                       (orientation R0)
@@ -5115,11 +5174,11 @@
                         (origin  (pt 15494000 19431000)))
                     )
                   ))
-                (designator  (stringDisplay ""
+                (designator  (stringDisplay "1I532"
                     (display
                       (figureGroupOverride ATTRIBUTE
                         (textHeight 203200)
-                        (visible  (true))
+                        (visible  (false))
                       )
                       (justify UPPERCENTER)
                       (orientation R90)
@@ -5167,11 +5226,11 @@
                         (origin  (pt 18923000 20066000)))
                     )
                   ))
-                (designator  (stringDisplay ""
+                (designator  (stringDisplay "1I538"
                     (display
                       (figureGroupOverride ATTRIBUTE
                         (textHeight 203200)
-                        (visible  (true))
+                        (visible  (false))
                       )
                       (justify UPPERCENTER)
                       (orientation R0)
@@ -5219,11 +5278,11 @@
                         (origin  (pt 18923000 17018000)))
                     )
                   ))
-                (designator  (stringDisplay ""
+                (designator  (stringDisplay "1I544"
                     (display
                       (figureGroupOverride ATTRIBUTE
                         (textHeight 203200)
-                        (visible  (true))
+                        (visible  (false))
                       )
                       (justify UPPERCENTER)
                       (orientation MY)
@@ -5271,11 +5330,11 @@
                         (origin  (pt 15367000 17018000)))
                     )
                   ))
-                (designator  (stringDisplay ""
+                (designator  (stringDisplay "1I550"
                     (display
                       (figureGroupOverride ATTRIBUTE
                         (textHeight 203200)
-                        (visible  (true))
+                        (visible  (false))
                       )
                       (justify UPPERCENTER)
                       (orientation MY)
@@ -5323,11 +5382,11 @@
                         (origin  (pt 11684000 17145000)))
                     )
                   ))
-                (designator  (stringDisplay ""
+                (designator  (stringDisplay "1I556"
                     (display
                       (figureGroupOverride ATTRIBUTE
                         (textHeight 203200)
-                        (visible  (true))
+                        (visible  (false))
                       )
                       (justify UPPERCENTER)
                       (orientation R90)
