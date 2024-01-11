@@ -4,7 +4,7 @@
     (keywordMap  (keywordLevel 0))
     (status
       (written
-        (timestamp 2024 1 11 14 15 26)
+        (timestamp 2024 1 11 16 19 11)
         (author "Siemens")
         (program "xDX Designer Edif Exporter"
           (version "X-ENTP VX.2.13 <22299700>  2023-03-03 19:46:53")
@@ -106,59 +106,6 @@
                   (pointList
                     (pt 0 254000)
                     (pt 254000 0)
-                  )
-                )
-              )
-              (portImplementation
-                (name S_1)
-                (connectLocation
-                  (figure GRAPHICS
-                    (dot  (pt 254000 0))))
-              )
-              (portImplementation
-                (name B_2)
-                (connectLocation
-                  (figure GRAPHICS
-                    (dot  (pt 0 0))))
-              )
-            )
-          )
-        )
-      )
-      (cell referenceRipperSymbol
-        (cellType RIPPER)
-        (view RIPPER_VIEW
-          (viewType SCHEMATIC)
-          (interface
-            (port  (array S_1 512)
-            )
-            (port  (array B_2 512)
-            )
-            (joined
-              (portRef S_1)
-              (portRef B_2))
-            (symbol
-              (boundingBox  (rectangle  (pt 0 -50800)  (pt 254000 50800)))
-              (figure
-               LINE
-                (path
-                  (pointList
-                    (pt 177800 0)
-                    (pt 254000 0)
-                  )
-                )
-              )
-              (figure
-               LINE
-                (path
-                  (pointList
-                    (pt 177800 0)
-                    (pt 127000 -50800)
-                    (pt 50800 -50800)
-                    (pt 0 0)
-                    (pt 50800 50800)
-                    (pt 127000 50800)
-                    (pt 177800 0)
                   )
                 )
               )
@@ -2014,31 +1961,13 @@
               (direction OUTPUT)
             )
             (symbol
-              (boundingBox  (rectangle  (pt -508000 127000)  (pt 2032000 1397000)))
-              (figure
-               ARC
-                (openShape
-                  (curve  (arc  (pt 1524000 762000)  (pt 1016000 1270000)  (pt 508000 1397000)))
-                )
-              )
-              (figure
-               ARC
-                (openShape
-                  (curve  (arc  (pt 508000 127000)  (pt 1016000 254000)  (pt 1524000 762000)))
-                )
-              )
-              (figure
-               ARC
-                (openShape
-                  (curve  (arc  (pt -63500 127000)  (pt -56609 151994)  (pt -63500 1397000)))
-                )
-              )
+              (boundingBox  (rectangle  (pt -508000 0)  (pt 2032000 1524000)))
               (figure
                LINE
                 (path
                   (pointList
-                    (pt -63500 1397000)
-                    (pt 508000 1397000)
+                    (pt 1524000 0)
+                    (pt 0 0)
                   )
                 )
               )
@@ -2046,9 +1975,38 @@
                LINE
                 (path
                   (pointList
-                    (pt -63500 127000)
-                    (pt 508000 127000)
+                    (pt 1524000 0)
+                    (pt 1524000 1524000)
                   )
+                )
+              )
+              (figure
+               LINE
+                (path
+                  (pointList
+                    (pt 1524000 1524000)
+                    (pt 0 1524000)
+                  )
+                )
+              )
+              (figure
+               LINE
+                (path
+                  (pointList
+                    (pt 0 0)
+                    (pt 0 1524000)
+                  )
+                )
+              )
+              (annotate
+                (stringDisplay ">1"
+                  (display
+                    (figureGroupOverride TEXT
+                      (visible  (true))
+                    )
+                    (justify CENTERCENTER)
+                    (orientation R0)
+                    (origin  (pt 762000 1270000)))
                 )
               )
               (propertyDisplay Part_Name
@@ -2836,10 +2794,17 @@
                   (owner "Siemens")
                 )
               )
-              (instance  (rename &0441I70 "$1I70")
+              (instance  (rename &0441I82 "$1I82")
+                (viewRef RIPPER_VIEW  (cellRef &044044Ripper_ripper  (libraryRef run055time_generated)))
+                (transform
+                  (orientation MYR90)
+                  (origin  (pt 6350000 23114000))
+                )
+              )
+              (instance  (rename &0441I84 "$1I84")
                 (viewRef ls32  (cellRef ls32  (libraryRef Logic)))
                 (transform
-                  (origin  (pt 6096000 508000))
+                  (origin  (pt 8382000 762000))
                 )
                 (portInstance I1  (designator  (stringDisplay ""
                       (display
@@ -2848,7 +2813,7 @@
                         )
                         (justify LOWERRIGHT)
                         (orientation R0)
-                        (origin  (pt 5689600 1574800)))
+                        (origin  (pt 7975600 1828800)))
                     )
                   ))
                 (portInstance I2  (designator  (stringDisplay ""
@@ -2858,7 +2823,7 @@
                         )
                         (justify LOWERRIGHT)
                         (orientation R0)
-                        (origin  (pt 5689600 1066800)))
+                        (origin  (pt 7975600 1320800)))
                     )
                   ))
                 (portInstance O1  (designator  (stringDisplay ""
@@ -2868,7 +2833,7 @@
                         )
                         (justify LOWERLEFT)
                         (orientation R0)
-                        (origin  (pt 8026400 1320800)))
+                        (origin  (pt 10312400 1574800)))
                     )
                   ))
                 (designator  (stringDisplay "R12"
@@ -2879,30 +2844,22 @@
                       )
                       (justify UPPERCENTER)
                       (orientation R0)
-                      (origin  (pt 6858000 457200)))
+                      (origin  (pt 9144000 711200)))
                   )
                 )
                 (property  (rename Part_Name "Part Name")
-                  (string  (stringDisplay "R12"
+                  (string  (stringDisplay "74LS32"
                       (display
                         (figureGroupOverride ATTRIBUTE
-                          (color 0 0 54)
                           (visible  (false))
                           (userData visibleName  (false))
                         )
                         (justify LOWERCENTER)
                         (orientation R0)
-                        (origin  (pt 6858000 2032000)))
+                        (origin  (pt 9144000 2286000)))
                     )
                   )
                   (owner "Siemens")
-                )
-              )
-              (instance  (rename &0441I82 "$1I82")
-                (viewRef RIPPER_VIEW  (cellRef &044044Ripper_ripper  (libraryRef run055time_generated)))
-                (transform
-                  (orientation MYR90)
-                  (origin  (pt 6350000 23114000))
                 )
               )
               (netBundle
